@@ -1,0 +1,101 @@
+@charset "ISO-8859-1";
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body
+{
+	background-image:url(images/khvhj.jpg);
+	background-size:cover;
+	background-position:down;
+	
+	font-family:sans-serif;
+	
+}
+.menu-bar{
+	background:#de0a54;
+	text-align:center;
+	
+}
+.menu-bar ul{
+	display:inline-flex;
+	list-syle:none;
+	color:white;
+	font-size:100%;
+}
+.menu-bar ul li{
+	display:inline;
+	width:180px;
+	margin:15px;
+	padding:15px;
+}
+.menu-bar ul li a{
+	color:#400040;
+}
+.same, .menu-bar ul li:hover
+{
+	background:#808080;
+	border-radius:3px;
+}
+.sub-menu-1{
+	display:none;
+	
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display:block;
+	position:absolute;
+	background:#ffffff;
+	margin-top:15px;
+	margin-left:-15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	display:block;
+	margin:10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+	width:150px;
+	padding:10px;
+	border-bottom:1px dotted #808080;
+	background:transparent;
+	border-radius:0;
+	text-align:left;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
